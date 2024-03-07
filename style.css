@@ -1,15 +1,18 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     text-decoration: none;
 }
-body{
-    font-family:Arial, Helvetica, sans-serif;
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
-.container{
+
+.container {
     background: url(images/background.png) no-repeat top right/cover;
 }
+
 header {
     width: 100%;
     height: 90px;
@@ -17,17 +20,20 @@ header {
     justify-content: space-between;
     padding: 10px 90px;
 }
-header > div {
+
+header>div {
     display: flex;
     align-items: center;
     gap: 40px;
     color: #fff;
     transform: 1ms;
 }
-header > div > a {
+
+header>div>a {
     color: #fff;
 }
-section{
+
+section {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -36,6 +42,7 @@ section{
     align-content: center;
     margin: 15px 60px;
 }
+
 .section-1 {
     color: #A3B104;
     display: flex;
@@ -44,131 +51,165 @@ section{
     margin: 140px 130px;
 
 }
-.section-1 > p{
-    font-size:37px;
+
+.section-1>p {
+    font-size: 37px;
     font-weight: bold;
     line-height: 40px;
 }
-.section-1 > #white {
+
+.section-1>#white {
     color: #fff;
 }
-.section-1 > h6 {
+
+.section-1>h6 {
     margin: 20px 0px;
     font-weight: lighter;
     line-height: 15px;
 }
-.section-1 > button{
+
+.section-1>button {
     background-color: #A3B104;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     color: #fff;
 }
-section > .section-2{
+
+section>.section-2 {
     display: flex;
     flex-direction: row;
 }
-section > div > div > img {
+
+section>div>div>img {
     display: flex;
     flex-direction: column;
 }
-section > div > #img1{
-        height: 394px;
-        width: 320px;
+
+section>div>#img1 {
+    height: 394px;
+    width: 320px;
 }
-section > div > div {
+
+section>div>div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
 }
-section > div > div > img {
+
+section>div>div>img {
     height: 60px;
     width: 60px;
 }
-header > div > a:hover{
+
+header>div>a:hover {
     background-color: #A3B104;
     padding: 10px;
     border-radius: 5px;
     border: none;
 }
-header > div > .Active{
+
+header>div>.Active {
     background-color: #A3B104;
     padding: 10px;
     border-radius: 5px;
     border: none;
 }
-header > div > p:hover{
+
+header>div>p:hover {
     background-color: transparent;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid  #A3B104;
+    border: 1px solid #A3B104;
 }
-header > div > img:hover{
+
+header>div>img:hover {
     box-shadow: #fff;
 }
-.section-1 > button:hover {
+
+.section-1>button:hover {
     background-color: transparent;
     border-radius: 5px;
-    outline: 1px solid  #A3B104;
+    outline: 1px solid #A3B104;
 }
-/* section 3 */
 
-.section-3 > div{
+/* ABOUT  */
+
+.About>div {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     gap: 10px;
 }
-.section-3 > .text{
+
+.About>.text {
     margin-left: 90px;
 }
-.section-3  h1{
+
+.About h1 {
     color: #153f09;
 }
-.section-3  h2{
+
+.About h2 {
     color: #A3B104;
     border-bottom: 2px solid black;
     width: 254px;
 }
-.section-3 p{
+
+.About p {
     color: black;
+    text-align: justify;
+    line-height: 25px;
+
 }
-.section-3 > .text > button{
+
+.text>button {
+
     background-color: #153f09;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
-    color: #fff;
     width: 121px;
     height: 40px;
     margin-top: 30px;
+    cursor: pointer;
 }
-.img img{
+
+.text>button>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.img img {
     height: 400px;
     width: 497px;
 }
 
-.section-4{
+.About-1 {
     background-color: #153f09;
     margin: auto;
     height: 210px;
     justify-content: space-around;
     align-items: baseline;
 }
-.section-4 > div{
+
+.About-1 >div {
     margin-top: 2%;
 }
-.section-4 > div > h1{
+
+.About-1 >div>h1 {
     color: #A3B104;
     text-decoration: solid;
 }
-.section-4 > div > h2{
+
+.About-1 >div>h2 {
     display: block;
     align-items: baseline;
 }
 
-footer{
+/* footer*/
+footer {
     background-color: #153f09;
     display: flex;
     text-align: center;
@@ -176,26 +217,28 @@ footer{
     color: #ffffff;
     border-top: 2px solid #f5deb3;
     flex-wrap: wrap;
-    
+
 }
-footer div h1{
+
+footer div h1 {
     text-align: center;
     margin: 25px 0;
 }
 
-footer div h3{
-    text-align:left;
+footer div h3 {
+    text-align: left;
     color: #d5d5d4;
     margin: px;
 
 }
-footer .gallery{
+
+footer .gallery {
     display: flex;
     flex-flow: column;
-    
+
 }
 
-footer .gallery img{
+footer .gallery img {
     width: 80px;
     height: 80px;
     border: 1px solid #f5deb3;
