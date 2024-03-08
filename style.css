@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* HOME */
+.container{
+    background: url(images/background.png) no-repeat top right/cover;
+}
+header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 90px;
+}
+header div {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    color: #fff;
+    transform: 0.8ms;
+}
+header div  a {
+    padding: 10px;
+    color: #fff;
+}
+header div p {
+    padding: 10px;
+}
+header div a:hover{
+    background-color: #A3B104;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.Active{
+    background-color: #A3B104;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+header div p:hover{
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 2px solid  #A3B104;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    align-content: center;
+
+}
+.section-1 {
+    color: #A3B104;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 140px 130px;
+
+}
+.section-1 p{
+    font-size:37px;
+    font-weight: bold;
+    line-height: 40px;
+}
+.section-1 #white {
+    color: #fff;
+}
+.section-1 h6 {
+    margin: 20px 0px;
+    font-weight: lighter;
+    line-height: 15px;
+}
+.section-1 button{
+    background-color: #A3B104;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+}
+.section-2{
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+}
+section div div img {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    width: 60px;
+    transform: 1ms;
+}
+section div #img1{
+        height: 394px;
+        width: 320px;
+}
+section div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.section-1 button:hover {
+    background-color: transparent;
+    border-radius: 5px;
+    outline: 1px solid  #A3B104;
+}
+/* HOME */
