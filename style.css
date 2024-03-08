@@ -115,4 +115,88 @@ section div div {
     border-radius: 5px;
     outline: 1px solid  #A3B104;
 }
-/* HOME */
+/* END HOME */
+/* FOOTER */
+.imgs {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+.imgs .img img{
+    width: 80px;
+    border-radius: 50%;
+}
+.imgs div h3{
+    color: black;
+} 
+footer{
+    background-color: #153f09;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    color: #ffffff;
+    border-top: 2px solid #f5deb3;
+    flex-wrap: wrap;
+    
+}
+.Find_Us {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+} 
+.Find_Us #logo{
+    height: 70px;
+    width: 90px;
+}
+.Find_Us div  img {
+    margin-top: 10px;
+    margin-left: 2px;
+    height: 30px;
+}
+.footer-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0px;
+    border-bottom: 2px solid #f5deb3;
+}
+
+.footer-body div{
+    text-align: center;
+}
+.footer-body div h2{
+    margin: 10px 0px;
+}
+
+.footer-body div h4{
+    font-weight: lighter;
+    line-height: 25px;
+    color: #d5d5d4;
+
+}
+.gallery{
+    display: flex;
+    flex-flow: column;
+    
+}
+
+.gallery img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #f5deb3;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+.Copyright {
+    padding: 20px 0px;
+    text-align: center;
+    
+}
+/* END FOOTER */
