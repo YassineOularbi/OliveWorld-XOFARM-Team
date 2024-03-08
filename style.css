@@ -9,8 +9,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-section {
+/* ABOUT  */
+.About, .About-1 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -19,85 +19,14 @@ section {
     align-content: center;
     margin: 15px 60px;
 }
-
-.section-1 {
-    color: #A3B104;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 140px 130px;
-
-}
-
-.section-1>p {
-    font-size: 37px;
-    font-weight: bold;
-    line-height: 40px;
-}
-
-.section-1>#white {
-    color: #fff;
-}
-
-.section-1>h6 {
-    margin: 20px 0px;
-    font-weight: lighter;
-    line-height: 15px;
-}
-
-.section-1>button {
-    background-color: #A3B104;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: #fff;
-}
-
-section>.section-2 {
-    display: flex;
-    flex-direction: row;
-}
-
-section>div>div>img {
-    display: flex;
-    flex-direction: column;
-}
-
-section>div>#img1 {
-    height: 394px;
-    width: 320px;
-}
-
-section>div>div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
-}
-
-section>div>div>img {
-    height: 60px;
-    width: 60px;
-}
-
-
-
-.section-1>button:hover {
-    background-color: transparent;
-    border-radius: 5px;
-    outline: 1px solid #A3B104;
-}
-
-/* ABOUT  */
-
-.About>div {
+.About-img, .text {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     gap: 10px;
 }
 
-.About>.text {
+.text {
     margin-left: 90px;
 }
 
