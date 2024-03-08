@@ -187,7 +187,7 @@ header>div>img:hover {
 }
 
 .About-1 {
-    background-color: #153f09;
+    background-color: #507A42;
     margin: auto;
     height: 210px;
     justify-content: space-around;
@@ -209,9 +209,10 @@ header>div>img:hover {
 }
 
 /* footer*/
-footer {
+footer{
     background-color: #153f09;
     display: flex;
+    flex-direction: column;
     text-align: center;
     justify-content: space-evenly;
     color: #ffffff;
@@ -219,30 +220,61 @@ footer {
     flex-wrap: wrap;
 
 }
+.Find_Us {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+} 
+.Find_Us #logo{
+    height: 70px;
+    width: 90px;
+}
+.Find_Us div  img {
+    margin-top: 10px;
+    margin-left: 2px;
+    height: 30px;
+}
+.footer-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0px;
+    border-bottom: 2px solid #f5deb3;
+}
 
-footer div h1 {
+.footer-body div{
     text-align: center;
-    margin: 25px 0;
+}
+.footer-body div h2{
+    margin: 10px 0px;
 }
 
-footer div h3 {
-    text-align: left;
+.footer-body div h4{
+    font-weight: lighter;
+    line-height: 25px;
     color: #d5d5d4;
-    margin: px;
 
 }
-
-footer .gallery {
+.gallery{
     display: flex;
     flex-flow: column;
 
 }
 
-footer .gallery img {
+.gallery img{
     width: 80px;
     height: 80px;
     border: 1px solid #f5deb3;
     border-radius: 5px;
     margin: 5px;
+
+}
+.Copyright {
+    padding: 20px 0px;
+    text-align: center;
 
 }
