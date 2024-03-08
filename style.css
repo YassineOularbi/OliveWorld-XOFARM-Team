@@ -5,6 +5,8 @@
     text-decoration: none;
 }
 body{
+    width: 100%;
+    height: auto;
     font-family:Arial, Helvetica, sans-serif;
 }
 /* SERVICE */
@@ -72,7 +74,7 @@ body{
     align-items: center;
     gap: 40px;
 }
-.clients div {
+.clients > div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,12 +83,14 @@ body{
     border-radius: 15px;
     gap: 20px;
 }
-.clients div div {
+.clients > div > div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap: 15px;
+    /* gap: 20px; */
+
 }
 .f-img{
     height: 50px;
@@ -114,7 +118,7 @@ body{
     border-radius: 15px;
     height: 50px;
 }
-.add-comment #add-comment{
+.add-comment > #add-comment{
     background-color: #D9D9D9;
     border: none;
     outline: none;
@@ -129,3 +133,17 @@ body{
     border-radius: 12px;
 }
 /* END FEEDBACK */
+/* CERTIFICATION */
+.certificat{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 130px;
+    background-color: #D9D9D9;
+}
+.certificat img{
+    width: 150px;
+    height: 100px;
+}
+/* END CERTIFICATION */
