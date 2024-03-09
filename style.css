@@ -51,7 +51,7 @@ header div p:hover{
     border-radius: 5px;
     outline: 2px solid  #A3B104;
 }
-section{
+.main{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -81,7 +81,7 @@ section{
     font-weight: lighter;
     line-height: 15px;
 }
-.section-1 button{
+#Botn{
     background-color: #A3B104;
     border: none;
     padding: 10px 20px;
@@ -93,24 +93,24 @@ section{
     flex-direction: row;
     gap: 110px;
 }
-section div div img {
+.suivant {
     display: flex;
     flex-direction: column;
     height: 60px;
     width: 60px;
     transform: 1ms;
 }
-section div #img1{
+#img1{
         height: 394px;
         width: 320px;
 }
-section div div {
+.img_suivant {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
 }
-.section-1 button:hover {
+#Botn:hover {
     background-color: transparent;
     border-radius: 5px;
     outline: 1px solid  #A3B104;
