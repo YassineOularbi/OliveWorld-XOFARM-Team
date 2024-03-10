@@ -450,6 +450,87 @@ footer{
 }
 /* End Product Style */
 
+/*Contact Us*/
+.contact-title{
+    font-size: 50px;
+    background-color: #A3B104;
+    width: 680px;
+    margin: 0;
+    margin-top: -12%;
+    color: #fff;
+    font-family: 'Inika';
+    text-align:right;
+    padding: 7%;
+    border-radius: 8px;
+
+    
+}
+
+.info{
+    font-size: 20px;
+    background-color: transparent;
+    margin-left: 6%;
+    display:flex;
+    gap: 20%;
+    color: #153f09;
+    text-align: center;
+    height: 400px;
+    padding-top: 8%;
+    font-family:'Times New Roman', Times, serif
+}
+
+.icone{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    
+}
+
+.content{
+    display: flex;
+    background-color: #153f09;
+    color: #fff;
+    height: 315px;
+    padding: 20px;
+}
+
+.map{ 
+    margin-left: 31%;
+}
+
+.form-name{
+    display: flex;
+    width: 00px;
+}
+
+input, textarea{
+    width: 410px;
+    padding: 17px;
+    margin: 11px;
+    height: 25px;
+    margin-left: 0%;
+    border-radius: 8px;
+}
+
+textarea{
+    height: 30%;
+}
+
+button{
+    width: 80px;
+    height: 30px;
+    background-color: #A3B104;
+    border: none;
+    border-radius: 8px;
+    margin-left: 39%;
+}
+
+.feedback{
+    margin-left: 8%;
+    margin-top: 2%;
+}
+
 /* Start Footer Style */
 
 /* End Footer Style */
