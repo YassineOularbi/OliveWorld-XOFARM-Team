@@ -223,7 +223,7 @@ footer{
     margin-left: 90px;
 }
 
-.title {
+.about-title {
     color: #153f09;
 }
 
@@ -314,6 +314,7 @@ footer{
     border:1px solid #A3B104;
     padding: 5px;
     border-radius: 5px;
+    margin-top: 30px;
 }
 .product{
     display: flex;
@@ -456,7 +457,7 @@ footer{
     background-color: #A3B104;
     width: 680px;
     margin: 0;
-    margin-top: -12%;
+    margin-top: -6%;
     color: #fff;
     font-family: 'Inika';
     text-align:right;
@@ -504,7 +505,7 @@ footer{
     width: 00px;
 }
 
-input, textarea{
+.input, .textarea{
     width: 410px;
     padding: 17px;
     margin: 11px;
@@ -513,11 +514,11 @@ input, textarea{
     border-radius: 8px;
 }
 
-textarea{
+.textarea{
     height: 30%;
 }
 
-button{
+.submit{
     width: 80px;
     height: 30px;
     background-color: #A3B104;
