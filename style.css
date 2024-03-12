@@ -224,13 +224,20 @@ footer{
 }
 
 .about-title {
-    color: #153f09;
+    color: white;
+    background-color: #153F09;
+    border-radius: 5px;
+    width: 80%;
+    margin-top: 3%;
+    text-align: center;
+    
 }
 
 .title-fc {
     color: #A3B104;
     border-bottom: 2px solid black;
     width: 254px;
+    
 }
 
 .desc {
